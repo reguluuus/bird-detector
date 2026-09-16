@@ -283,6 +283,12 @@ The script can also be used directly from the command line:
 python predict_video.py --input bird_136
 ```
 
+```bash
+python predict_video.py \
+    --input examples/input/bird_136.mp4 \
+    --output examples/output/bird_136_detected.mp4
+```
+
 Optional inference parameters can be changed:
 
 ```bash
